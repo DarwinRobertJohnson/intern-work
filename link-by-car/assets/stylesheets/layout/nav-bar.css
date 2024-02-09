@@ -1,0 +1,26 @@
+
+.nav-bar {
+    color: white;
+    margin: 30px 10px 10px 10px;
+}
+
+.nav-bar h2 {
+    width:20%;
+    display: inline-block;
+}
+
+.nav-bar ul {
+    display: inline-block;
+    width:60%;
+}
+
+.nav-bar li {
+    display: inline-block;
+    width:19%;
+    text-align: center;
+}
+
+.nav-bar button {
+    width: 20%;
+    display: inline-block;
+}

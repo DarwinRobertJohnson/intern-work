@@ -1,0 +1,32 @@
+
+
+.info-bar {
+    height: 200px;
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: auto;
+    text-align: left;
+}
+
+
+
+.info-bar h2 {
+    width:30%;
+    display: inline-block;
+
+}
+
+.info-bar h1 {
+    width: 30%;
+    display: inline-block;
+
+}
+
+.info-bar div {
+    width: 30%;
+    display: inline-block;
+
+}
+

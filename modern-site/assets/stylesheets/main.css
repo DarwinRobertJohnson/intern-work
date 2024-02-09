@@ -1,0 +1,183 @@
+/*
+    Reset Code
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+        Website Code
+*/
+
+
+/*  Float   Container   */
+.group:before,
+.group::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+}
+
+/* Float Container */
+
+body {
+    background: radial-gradient(white,grey);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.nav {
+    color: white;
+}
+
+.nav ul {
+    margin-top: 15px;
+}
+
+.nav h2 {
+    float: left;
+    font-size:32px;
+}
+
+.nav li {
+    float:left;
+    margin-right:15px;
+}
+
+.nav button {
+    height:25px;
+    border:0 solid;
+}
+
+.about-bar {
+    float: left;
+    margin-left:30px;
+}
+
+.business-bar {
+    float: right;
+}
+
+
+.main-body-container {
+    margin:100px auto 0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+    text-align:center;
+}
+
+.main-body-container article {
+    display: inline-block;
+    border:1px solid white;
+    border-radius: 25px;
+    padding: 10px 40px 10px 40px;
+}
+
+h1 {
+    font-size: 64px;
+    color:white;
+    margin-top:50px;
+}
+
+.main-body-container h2 {
+    margin-top: 70px;
+    color:darkgray;
+}
+
+.main-body-container button {
+    display:inline-block;
+    margin-top:30px;
+    height:50px;
+    width:200px;
+}
+
+footer {
+    width:90%;
+    position: absolute;
+    bottom:0;
+    left:5%;
+}
+
+.marathon-progress {
+    background-color:darkgrey;
+    height:150px;
+    border:1px solid grey;
+    color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.marathon-progress p {
+    padding-top:50px;
+    margin-left:50px;
+}
+
+.marathon-progress li {
+    display:inline-block;
+    width:19%;
+    border-right:1px solid white;
+}
+
+.marathon-progress ul {
+    margin-top:40px;
+    margin-left:30px;
+}
+
+button {
+    border: 0;
+    border-radius: 25px;
+}
+
+button:hover {
+    color:white;
+}

@@ -1,0 +1,16 @@
+
+.textual p {
+    color: white;
+}
+
+.textual h1 {
+    font-size: 64px;
+    color:white;
+}
+
+.textual button {
+    background-color: #74E291;
+    border:0;
+    border-radius: 25px;
+    padding: 20px 50px;
+}

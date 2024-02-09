@@ -1,0 +1,28 @@
+
+.content-bar {
+    margin-top: 250px;
+}
+
+.content-bar p:nth-child(1) {
+    border:1px solid green;
+    border-radius: 25px;
+    width:200px;
+    text-align: center;
+}
+
+.content-bar p {
+    line-height: 1.5em;
+}
+
+.content-bar h1 {
+    font-size: 80px;
+}
+
+.content-bar button {
+    background-color: white;
+    border:0;
+    border-radius:25px;
+    padding:15px 25px;
+    margin-top:25px;    
+    color:green;
+}

@@ -1,0 +1,35 @@
+
+header h2{
+    display: inline-block;
+    background-color: #F6FDC3;
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    text-align: center;
+    padding:5px;
+}
+
+header ul {
+    display: inline-block;
+}
+
+.business-bar {
+    width: 30%;
+    margin-left:600px;
+
+}
+
+.business-bar li {
+    display: inline-block;
+    width:25%;
+}
+
+.order-bar {
+    width:20%;
+    margin-left: 100px;
+}
+
+.order-bar li {
+    display: inline-block;
+    width:50%;
+}

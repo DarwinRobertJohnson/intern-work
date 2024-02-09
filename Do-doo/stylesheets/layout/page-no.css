@@ -1,0 +1,13 @@
+
+.page-no {
+    position:absolute;
+    bottom:25;
+    width:25%;
+    left:70%;
+    right:5%;
+}
+
+.page-no li{
+    display: inline-block;
+    width:25%;
+}

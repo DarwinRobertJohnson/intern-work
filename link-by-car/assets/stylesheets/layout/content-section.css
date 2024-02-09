@@ -1,0 +1,44 @@
+
+
+.textual {
+    width: 40%;
+    text-align: left;
+    display: inline-block;
+    margin-left:100px;
+}
+
+.textual p {
+    margin: 100px auto 0 auto;
+}
+
+.textual h1 {
+    margin: 75px auto 0 auto;
+}
+
+.textual button {
+    margin:50px auto 0 auto;
+}
+
+.image-section {
+    display: inline-block;  
+    margin-left: 100px;
+}
+
+.inf-block:nth-of-type(1) {
+    position: relative;
+    top:150px;
+}
+
+
+.inf-block:nth-of-type(2) {
+    position: relative;
+    top:100px;
+    left:160px;
+}
+
+
+.inf-block:nth-of-type(3) {
+    position: relative;
+    top:-100px;
+    left: 300px;
+}

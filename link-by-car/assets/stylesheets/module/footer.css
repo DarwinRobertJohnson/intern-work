@@ -1,0 +1,27 @@
+
+.info-bar {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.info-bar h2 {
+    font-size: 32px;
+    margin:50px 0 0 50px;
+}
+
+.info-bar h1 {
+    font-size: 52px;
+    text-align: center;
+}
+
+.info-bar div {
+    margin-left: 50px;
+}
+
+.info-bar div button {
+    color: #74E291;
+    border: 1px solid #74E291;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px 20px;
+}
